@@ -1,0 +1,70 @@
+LEGERE("Teste de Ola Mundo");
+
+##########################################
+x = 10;
+
+##########################################
+
+y = 25;
+{
+    LEGERE("O valor de y é: ", y);
+}
+
+
+##########################################
+
+contador = 1;
+DUM contador <= 5 {
+    LEGERE("Contador atual: ", contador);
+    contador += 1;
+}
+
+
+##########################################
+
+x = 0;
+s = 0;
+{
+x = INT(SCRIBE("primeira nota: "));
+s = INT(SCRIBE("segunda nota: "));
+soma = x + s;
+LEGERE("O valor de soma eh: ", soma);
+}
+
+
+##########################################
+
+
+{
+    valor1 = INT(SCRIBE("Digite o primeiro valor: "));
+    valor2 = INT(SCRIBE("Digite o segundo valor: "));
+    resultado = valor1 * valor2;
+    LEGERE("O resultado da multiplicação é: ", resultado);
+}
+
+
+
+##########################################
+
+TO item IN TRACTUS(5, 15){
+    item += 2;
+    LEGERE("Item atualizado: ", item);
+}
+
+
+##########################################
+
+idade = 18;
+CASUS idade >= 18 {
+    LEGERE("Acesso permitido. Você é maior de idade.");
+}
+
+
+##########################################
+
+idade = 16;
+CASUS idade >= 18 {
+    LEGERE("Você pode acessar o sistema.");
+} ALITER {
+    LEGERE("Acesso negado. Você é menor de idade.");
+}
