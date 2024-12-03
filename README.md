@@ -24,6 +24,7 @@ Os tokens da linguagem e suas equivalências em Python são apresentados a segui
 |--------------|-------------|---------------------|
 | `TOTUM`      | `int`       | Tipo inteiro        |
 | `DECIMALE`   | `float`     | Tipo float          |
+| `BIP`        | `double`    | Tipo double         |
 | `VERBUM`     | `str`       | Tipo string         |
 | `LEGERE()`   | `print()`   | Função `print`      |
 | `SCRIBE()`   | `input()`   | Função `input`      |
