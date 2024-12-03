@@ -1,5 +1,3 @@
-# A3-Compiladores
-
 # Compilador Latinus
 
 ## 1. Autores do Projeto
