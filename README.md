@@ -75,8 +75,4 @@ O projeto não apenas cumpriu os requisitos propostos, mas também expandiu as h
 ---
 
 
-### 🛠 **Como Executar**
-1. Certifique-se de ter o Python instalado.
-2. Clone o repositório:  
-   ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+
